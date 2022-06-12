@@ -11,6 +11,8 @@ if [[ $ST_GIT == '' ]] ; then
     git config --global alias.br branch
     git config --global alias.ci commit
     git config --global alias.st status
+    # 1.3 add public rsa-key 
+    ssh-keygen -t rsa -C "livid.xh@gmail.com"
 else
     brew upgrade git
 fi

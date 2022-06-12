@@ -16,3 +16,15 @@ else <expression>; then
 fi
 
 ```
+
+## 3. expression 
+```shell
+#1. equals
+VAR1 == "a"
+#2. and -> && , or -> ||
+(exist 0) && echo True
+#3. symbol “-eq”, “-ne”, “-lt”, “-le”, “-gt”, or “-ge”.
+
+# 4. [] and [[]]
+#TODO 
+```
