@@ -28,3 +28,22 @@ VAR1 == "a"
 # 4. [] and [[]]
 #TODO 
 ```
+
+## 4. function and param
+```
+# $num represent the input, $# represent number  
+function show() {
+    echo "1: $1"
+    echo "2: $2"
+    echo "3: "$3
+    echo "4 $# parameters"
+}
+➜  dev_init git:(master) ✗ show A1 A2 A3
+1: A1
+2: A2
+3: A3
+4 3 parameters
+
+
+
+```

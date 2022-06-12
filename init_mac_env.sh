@@ -34,13 +34,13 @@ dev_tools=(
     wget
     telnet
 )
-
+# in arm mac , u shoule install it manually
 software_lists=(
     iTerm2
     google-chrome
     Alfred
     visual-studio-code
-    sublime
+    sublime-text
 )
 
 
@@ -67,6 +67,12 @@ brew install ${software_lists[@]} --cask
 if is_command git;then
     set_git_config
 fi
+
+
+
+
+
+
 
 
 

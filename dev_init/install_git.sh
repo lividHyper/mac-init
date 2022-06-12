@@ -13,6 +13,9 @@ if [[ $ST_GIT == '' ]] ; then
     git config --global alias.st status
     # 1.3 add public rsa-key 
     ssh-keygen -t rsa -C "livid.xh@gmail.com"
+    # 1.4 add git config 
+    git config --global user.name "livid"
+    git config --global user.email livid.xh@gmail.com
 else
     brew upgrade git
 fi
